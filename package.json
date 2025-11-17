@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,8 @@
     "url": "(https://github.com/tu-usuario/fullstack-javascript-project-98.git)"
   },
   "author": "Javier Kamell",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
