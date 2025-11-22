@@ -6,6 +6,7 @@ const runEngine = (description, makeRound) => {
   console.log('¡Bienvenido a Brain Games!');
   const name = readlineSync.question('¿Cuál es tu nombre? ');
   console.log(`¡Hola, ${name}!`);
+
   console.log(description);
 
   for (let i = 0; i < roundsToWin; i += 1) {
@@ -15,15 +16,15 @@ const runEngine = (description, makeRound) => {
     const userAnswer = readlineSync.question('Tu respuesta: ');
 
     if (userAnswer !== correctAnswer) {
-      console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
-      console.log(`¡Intentémoslo de nuevo, ${name}!`);
+      console.log(`'${userAnswer}' es incorrecto. La respuesta correcta era '${correctAnswer}'.`);
+      console.log(`¡Inténtalo nuevamente, ${name}!`);
       return;
     }
 
     console.log('¡Correcto!');
   }
 
-  console.log(`¡Felicidades, ${name}!`);
+  console.log(`¡Felicidades, ${name}, ganaste!`);
 };
 
 export default runEngine;
