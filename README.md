@@ -12,3 +12,6 @@
 
 ### video asciinema paso-7
 [![Demo](https://asciinema.org/a/320VvR3DhpT6EjVIvwlBaziax.svg)](https://asciinema.org/a/320VvR3DhpT6EjVIvwlBaziax)
+
+### video asciinema paso-8
+[![Demo](https://asciinema.org/a/iHtY59JLPsZDFDuPncOKd8E6i.svg)](https://asciinema.org/a/iHtY59JLPsZDFDuPncOKd8E6i)
