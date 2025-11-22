@@ -1,6 +1,6 @@
 import runEngine from '../index.js';
 
-const description = 'Resuelve la operación matemática. Responde con el número correcto.';
+const description = '¿Cuál es el resultado de la expresión?';
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
