@@ -9,3 +9,6 @@
 
 ### video asciinema paso-6
 [![Demo](https://asciinema.org/a/Ro9A4A5454hd2xZZcsjefJ1w9.svg)](https://asciinema.org/a/Ro9A4A5454hd2xZZcsjefJ1w9)
+
+### video asciinema paso-7
+[![Demo](https://asciinema.org/a/320VvR3DhpT6EjVIvwlBaziax.svg)](https://asciinema.org/a/320VvR3DhpT6EjVIvwlBaziax)
