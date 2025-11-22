@@ -25,7 +25,6 @@ const runEngine = (description, makeRound) => {
   }
 
   console.log(`¡Felicidades, ${name}!`);
-
 };
 
 export default runEngine;
